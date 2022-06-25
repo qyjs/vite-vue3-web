@@ -14,6 +14,7 @@
       >
         <el-menu-item index="home">Home</el-menu-item>
         <el-menu-item index="hello">Hello</el-menu-item>
+        <el-menu-item index="login">Login</el-menu-item>
         <el-menu-item index="orders">Orders</el-menu-item>
       </el-menu>
       </el-header>

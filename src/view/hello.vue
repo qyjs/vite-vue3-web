@@ -1,11 +1,13 @@
 <template>
-<el-button @click="add">Add Item</el-button>
-  <el-button @click="onDelete">Delete Item</el-button>
+  <el-button type="success" @click="add">Add Item</el-button>
+  <el-button @click="onDelete" type="warning">Delete Item</el-button>
   <el-scrollbar max-height="400px">
     <p v-for="item in count" :key="item" class="scrollbar-demo-item">
       {{ item }}
     </p>
   </el-scrollbar>
+
+  {{name}}
 </template>
 
 <script lang="ts" setup>
